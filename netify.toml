@@ -1,4 +1,7 @@
-[[redirects]]
-from = "/*"
-to = "/App.js"
-status = 200
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[dev]
+  command = "npm start"
+  targetPort = 3000
